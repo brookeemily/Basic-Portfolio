@@ -1,0 +1,136 @@
+html, body {
+    margin:0px; 
+    padding:0px;
+    background-image: url("../images/wormz.png");
+}
+
+#about, #portfolio, #contact { 
+    padding:10px;
+    text-decoration: none;
+    color: #777777;
+    margin: auto;
+ 
+}
+
+hr {
+    display: inline;
+      size: 1px;
+      margin-left: 2px;
+      margin-right: 10px;
+      overflow: hidden;
+      color: #b5b5b5; 
+   
+  }
+
+  #break {
+        display: block;
+        margin-top: 0.5px;
+        margin-bottom: 0.5px;
+        margin-left: 75px;
+        margin-right: 75px;
+        border-style: inset;
+        border-width: 1px;
+        color: #b5b5b5; 
+  }
+
+
+
+.name {
+    float: left;
+    height: 75px;
+    width: 25%;
+    margin-left: 230px;
+    background: #4aaaa5;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav {
+    display: block;
+    float: right;
+    color: #777777;
+    height: 75px;
+    width: 25%;
+    padding-top: 30px;
+    margin-right: 110px;
+    text-decoration: none;
+    color: #777777;
+   }
+
+.header {
+    height: 75px;
+    width: 100%;
+    color: #333;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+.content {
+    width: 960px;
+    background: white;
+    margin: auto;
+    margin-top: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cccccc;
+}
+
+h2 {
+    color:  #4aaaa5;
+    margin-left: 75px;
+    padding-top: 20px;
+}
+
+#img {
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/brooke.jpeg");
+    margin-left: 75px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 0px;
+
+}
+
+#bio {
+    float: none;
+    margin: 0px 50px 10px 75px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    margin-top: 60px;
+    height: 75px;
+    width: 100%;
+    color: #333;
+    background: #666666;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 8px;
+    color: white;
+    text-align: center;
+  }
+
+#form{
+    height: 500px;
+    margin-left: 70px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+input[type=text], textarea {
+    width: 820px; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    margin-left: auto;
+    margin-right: auto;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
