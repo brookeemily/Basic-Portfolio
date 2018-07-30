@@ -4,14 +4,18 @@ html, body {
     background-image: url("../images/wormz.png");
 }
 
+/* About, Portfolio. and Contact links */
 #about, #portfolio, #contact { 
     padding:10px;
     text-decoration: none;
     color: #777777;
     margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
  
 }
 
+/* Size of dividers */
 hr {
     display: inline;
       size: 1px;
@@ -34,7 +38,7 @@ hr {
   }
 
 
-
+/* Name heading */
 .name {
     float: left;
     height: 75px;
@@ -45,6 +49,8 @@ hr {
     overflow: hidden;
 }
 
+
+/* Navigation bar */
 .nav {
     display: block;
     float: right;
@@ -57,6 +63,7 @@ hr {
     color: #777777;
    }
 
+   /* Header */
 .header {
     height: 75px;
     width: 100%;
@@ -69,6 +76,7 @@ hr {
     margin-bottom: 10px;
   }
   
+  /* Content on page */
 .content {
     width: 960px;
     background: white;
@@ -77,14 +85,17 @@ hr {
     border-style: solid;
     border-width: 1px;
     border-color: #cccccc;
+    overflow: hidden;
 }
 
+/* Title of content */
 h2 {
     color:  #4aaaa5;
     margin-left: 75px;
     padding-top: 20px;
 }
 
+/* Bio image */
 #img {
     width: 200px;
     height: 200px;
@@ -95,6 +106,7 @@ h2 {
     margin-bottom: 0px;
 
 }
+/* Biography */
 
 #bio {
     float: none;
@@ -102,6 +114,74 @@ h2 {
     padding-bottom: 20px;
 }
 
+
+/* Portfolio */
+
+.portfolio {
+
+}
+
+#portfolio-1 {
+    display: inline;
+        width: 450px;
+        height: 450px;
+        background-image: url("../images/dale.png");
+        background-size: contain;
+        margin-left: 20px;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 50px;
+}
+
+
+#portfolio-2 {
+    display: inline;
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/john.png");
+    float: right;
+    margin-right: 70px;
+    margin-top: 33px;
+    background-size: contain;
+    margin-bottom: 68px;
+
+}
+
+#portfolio-3 {
+    display: inline;
+    width: 400px;
+    height: 400px;
+    background-image: url("../images/halsey.png");
+    background-size: cover;
+    margin-left: 60px;
+    float: left;
+    margin-bottom: 30px;
+ 
+}
+
+#portfolio-4 {
+    display: inline;
+    width: 400px;
+    height: 400px;
+    background-size: contain;
+    background-image: url("../images/bear.png");
+    float: right;
+    margin-right: 70px;
+    margin-bottom: 30px;
+}
+
+#portfolio-5 {
+    display: inline;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    background-image: url("../images/julien.jpg");
+    margin-left: 300px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Footer */
 .footer {
     margin-top: 60px;
     height: 75px;
@@ -115,7 +195,9 @@ h2 {
     text-align: center;
   }
 
+  /* Contact me form */
 #form{
+    margin-top: 20px;
     height: 500px;
     margin-left: 70px;
     padding-bottom: 20px;
@@ -134,3 +216,12 @@ input[type=text], textarea {
     margin-right: auto;
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
 }
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+}
+
