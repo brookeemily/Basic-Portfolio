@@ -2,6 +2,7 @@ html, body {
     margin:0px; 
     padding:0px;
     background-image: url("../images/wormz.png");
+
 }
 
 /* About, Portfolio. and Contact links */
@@ -11,9 +12,24 @@ html, body {
     color: #777777;
     margin: auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
- 
 }
+
+/* Footer */
+.footer {
+    position: absolute; 
+    height: 10%;
+    width: 100%;
+    margin-top: 10%;
+    color: #333;
+    background: #666666;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 8px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif
+  }
 
 /* Size of dividers */
 hr {
@@ -40,10 +56,11 @@ hr {
 
 /* Name heading */
 .name {
+    position: absolute;
     float: left;
     height: 75px;
     width: 25%;
-    margin-left: 230px;
+    margin-left: 15%;
     background: #4aaaa5;
     text-align: center;
     overflow: hidden;
@@ -52,13 +69,14 @@ hr {
 
 /* Navigation bar */
 .nav {
+    position: relative;
     display: block;
     float: right;
     color: #777777;
     height: 75px;
     width: 25%;
     padding-top: 30px;
-    margin-right: 110px;
+    margin-right: 5%;
     text-decoration: none;
     color: #777777;
    }
@@ -73,29 +91,33 @@ hr {
     border-width: 1px;
     border-color: #cccccc;
     color: white;
-    margin-bottom: 10px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
   }
   
   /* Content on page */
+
 .content {
     width: 960px;
     background: white;
-    margin: auto;
-    margin-top: 20px;
+    margin: 5% 15% 0% 15%;
     border-style: solid;
     border-width: 1px;
     border-color: #cccccc;
     overflow: hidden;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif
 }
 
 /* Title of content */
+
 h2 {
     color:  #4aaaa5;
     margin-left: 75px;
     padding-top: 20px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* Bio image */
+
 #img {
     width: 200px;
     height: 200px;
@@ -110,8 +132,9 @@ h2 {
 
 #bio {
     float: none;
-    margin: 0px 50px 10px 75px;
+    margin: auto 8%;
     padding-bottom: 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif
 }
 
 
@@ -176,32 +199,23 @@ h2 {
     height: 400px;
     background-size: cover;
     background-image: url("../images/julien.jpg");
-    margin-left: 300px;
+    margin-left: 60px;
     float: left;
     margin-right: 20px;
 }
 
-/* Footer */
-.footer {
-    margin-top: 60px;
-    height: 75px;
-    width: 100%;
-    color: #333;
-    background: #666666;
-    border-top-style: solid;
-    border-color: #4aaaa5;
-    border-width: 8px;
-    color: white;
-    text-align: center;
-  }
+ 
+
 
   /* Contact me form */
-#form{
+
+#form {
     margin-top: 20px;
     height: 500px;
     margin-left: 70px;
     padding-bottom: 20px;
     margin-bottom: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif
 }
 
 input[type=text], textarea {
@@ -224,4 +238,5 @@ input[type=submit] {
     color: white;
     font-size: 16px;
 }
+
 
