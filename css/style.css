@@ -27,7 +27,7 @@ html, body {
     border-width: 8px;
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 2%;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif
   }
 
@@ -69,7 +69,7 @@ hr {
 
 /* Navigation bar */
 .nav {
-    position: relative;
+    /* position: relative; */
     display: block;
     float: right;
     color: #777777;
@@ -144,39 +144,51 @@ h2 {
 
 }
 
+#description {
+  height: 40px;
+    width: 250px;
+    background-color: #4aaaa5;
+    margin-top: 130px;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+
+}
+
 #portfolio-1 {
     display: inline;
-        width: 450px;
-        height: 450px;
-        background-image: url("../images/dale.png");
-        background-size: contain;
-        margin-left: 20px;
-        float: left;
-        margin-right: 20px;
-        margin-bottom: 50px;
+    width: 250px;
+    height: 200px;
+        background-image: url(../images/bear.png);
+        margin-left: 7.5%;
+        background-size: cover;
+        background-position: center;
+    float: left;
+    margin-bottom: 30px;
 }
 
 
 #portfolio-2 {
     display: inline;
-    width: 400px;
-    height: 400px;
-    background-image: url("../images/john.png");
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/ill-2.jpg);
     float: right;
-    margin-right: 70px;
-    margin-top: 33px;
+    margin-right: 35%;
     background-size: contain;
-    margin-bottom: 68px;
+    background-position: center;
+    margin-bottom: 30px;
 
 }
 
 #portfolio-3 {
     display: inline;
-    width: 400px;
-    height: 400px;
-    background-image: url("../images/halsey.png");
+    width: 250px;
+    height: 200px;
+    background-image: url(../images/merch.jpg);
     background-size: cover;
-    margin-left: 60px;
+    background-position: center;
+    margin-left: 7.5%;
     float: left;
     margin-bottom: 30px;
  
@@ -184,24 +196,27 @@ h2 {
 
 #portfolio-4 {
     display: inline;
-    width: 400px;
-    height: 400px;
-    background-size: contain;
-    background-image: url("../images/bear.png");
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    background-image: url(../images/branding.png); 
+    background-position: center bottom;
     float: right;
-    margin-right: 70px;
-    margin-bottom: 30px;
+    margin-right: 35%;
+    margin-bottom: 68px;
 }
 
 #portfolio-5 {
     display: inline;
-    width: 400px;
-    height: 400px;
-    background-size: cover;
-    background-image: url("../images/julien.jpg");
-    margin-left: 60px;
+    width: 250px;
+    height: 200px;
+    background-size: contain;
+    background-image: url(../images/gd.png);  
+    background-position: center;
+    margin-left: 7.5%;
     float: left;
     margin-right: 20px;
+    margin-bottom: 30px;
 }
 
  
